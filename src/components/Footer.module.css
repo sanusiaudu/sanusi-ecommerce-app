@@ -1,0 +1,125 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .footerContentOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background: #fafafa;
+    width: 100%;
+  }
+  
+  .footerContentOne h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 3rem 0 0 3rem;
+  }
+  .footerContentOne .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #23a6f0;
+    padding: 0 0 2rem 3rem;
+  }
+  
+  
+  .footerContentTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem  0 2rem 0;
+    text-align: left;
+  }
+  
+  .footerLinkContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerLinkContainer h5{
+    margin-bottom: 0.8rem;
+  }
+  .footerLinkContainer:last-child h5{
+    margin-bottom: 0.8rem;
+  }
+  .footerLinks nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem auto;
+  }
+  
+  .footerLinks nav a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+  
+  
+  .footerInput .text {
+    font-size: 0.7rem;
+    color: #737373;
+  }
+  
+  .inputEmail {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .inputEmail input {
+    border: 1px solid #ddd;
+    padding: 1rem 0 1rem 2rem;
+  }
+  
+  .inputEmail button {
+    padding: 1rem;
+    color: #fff;
+    background: #23a6f0;
+    border: none;
+    outline: none;
+  }
+  
+  .footerContentThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FAFAFA;
+  }
+  
+  .footerText .texts {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #737373;
+  }
+  
+  @media screen and ( min-width:1024px ){
+    .footerContentOne {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2rem 0;
+    }
+    .footerContentOne h3 {
+      padding: 0 0 0 5rem;
+    }
+    .footerContentOne .icons {
+      padding: 0 10rem 0 0;
+    }
+    .footerContentTwo {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+    }
+  }
+ 

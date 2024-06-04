@@ -1,0 +1,57 @@
+.cartBackground {
+  min-height: 712px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 0 2rem;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cartBackground h6{
+  color: #23A6F0;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.cartBackground h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 1rem auto;
+}
+.cartBackground h3{
+  color: #23856D;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.cartBackground p{
+  color: #737373;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.cartBackground button{
+  background: #23A6F0;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  padding: 1rem 3rem;
+  border-radius: 0.4rem;
+  margin: 2rem auto;
+}
+@media screen and ( min-width:960px ){
+  .content{
+    width: 60%;
+  }
+}

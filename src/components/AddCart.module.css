@@ -1,0 +1,294 @@
+.cartMainContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .cartContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .shopLinks {
+    padding: 1.25rem;
+    width: 75%;
+  }
+  
+  .shopLinks nav {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+  }
+  
+  .shopLinks nav a {
+    text-decoration: none;
+  }
+  
+  .shopLinks nav .shop:nth-child(5) {
+    color: #bdbdbd;
+  }
+  
+  .shopLinks .home {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #252b42;
+  }
+  
+  .cartContainer .cartContentOne {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cartContainer .cartContentOne h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #121517;
+    margin-bottom: 0.6rem;
+    text-align: left;
+  }
+  .itemContainerOne{
+    display: none;
+  }
+  
+  .itemContainerOne .itemHeader {
+    display: flex;
+    height: 3.5rem;
+    background: #3b4148;
+    color: #fff;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .itemHeader p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.4rem  
+  }
+
+
+  
+  
+  .itemContainerTwo .heroCartSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem;
+  }
+  
+  .heroCartSection .heroItem {
+    display: flex;
+    gap:0.3rem;
+    align-items: center;
+  }
+  
+  .cartText p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 0.9rem;    
+    color: #2ba501;
+  }
+  .mobileAddQuantity{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: center;
+  }
+  .mobileAddQuantity input{
+    width: 3rem;
+  }
+  
+  .heroCartSection .addQuantity {
+    display: none;
+  }
+  
+  .addQuantity span {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 1.25rem;
+  }
+  
+  .addQuantity .reduce {
+    background: #d2d6db;
+    width: 0x;
+    height: 1.6rem;
+    padding:0.3rem;
+    border-radius: 1.25rem;
+  }
+  
+  .addQuantity .add {
+    background: #23a6f0;
+    width: 1.8rem;
+    height: 1.6rem;
+    border-radius: 1.25rem;
+    padding:0.5rem;
+  }
+  
+  .addQuantity input[type="number"] {
+    width: 45%;
+    padding: 0.6rem 0 0.6rem 0.5rem;
+  }
+  
+  .priceQuantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .priceQuantity h4 {
+    color: #121517;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem;    
+    cursor: pointer;
+  }
+  
+  .priceQuantity p {
+    color: #6c6c6c;
+    font-size: 0.6rem;
+    font-weight: 400;  
+  }
+  
+  .cartText h4 {
+    margin:0.3rem 0 0.6rem 0;
+    font-size: 0.6rem;
+    font-weight: 500; 
+  }
+  
+  .cartText .iconText {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+  }
+  
+  .iconText .txt {
+    font-size: 0.5rem;
+  }
+  
+  .heroItem img {
+    width: 6.25rem;
+    height: 4.5rem;
+  }
+  
+  .cartContentTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.25rem;
+  }
+  
+  .cartContentTwo .summaryContentOne {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+    margin: 1.8rem 0;
+  }
+  
+  .summaryContent {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+  }
+  
+  .summaryContentTwo {
+    margin: 0.6rem 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .deleteContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .deleteContainer .delete {
+    display: flex;
+    gap:0.3rem;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cartContentTwo .line {
+    border: 1px solid gray;
+    opacity: 0.5;
+    display: flex;
+    margin: 1.8rem 0;
+  }
+  
+  .cartContentTwo .btn {
+    margin: 1.25rem 0;
+    text-align: center;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #b0adad;
+  }
+  
+  .btn button{
+      width: 95%;
+      height: 3.5rem;
+      border-radius: 0.6rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: #23a6f0;
+      border: none;
+      color: #fff;
+  }
+  
+  .summaryContent h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.4rem;    color: #3A3C3E;
+  }
+  
+  .summaryContent small {
+    font-size: 0.5rem;
+    font-weight: 500;
+    line-height: 0.9rem;    color: #f56666;
+    width: 30%;
+  }
+  
+  .cartContentTwo .cards {
+    display: flex;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+  
+  .payImage{
+      display: flex;
+      gap: 1rem;
+  }
+  
+  @media screen and ( min-width:960px ){
+
+    .cartContainer {
+      flex-direction: row;
+      padding: 2rem 5rem;
+    }
+    .heroCartSection .addQuantity {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      justify-content: center;
+    }
+    .mobileAddQuantity{
+      display: none;
+  }
+  .itemContainerOne{
+    display: flex;
+  }
+  }

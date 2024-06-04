@@ -1,0 +1,148 @@
+.navigation{
+    padding: 2rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 30rem; */
+}
+.h2{
+    line-height: 2rem;
+    margin: 0;
+}
+.icon{
+    margin-left: 1rem;
+    cursor: pointer;
+    color: #252B42;
+}
+.dropUp{
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+.dropDown{
+    max-height: 100vh;
+    opacity: 1;
+    transition: all 1.2s ease-out;
+}
+.dropDown a{
+    text-decoration: none;
+    color: #737373;
+}
+.dropDown h2{
+    color: #737373;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.searchTab{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-height: 2rem;
+    transition: all 1.5s ease-out;
+}
+.searchHidden{
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    display: none;
+    transition: all 1.5s ease-out;
+}
+.searchGroup{
+    display: flex;
+    align-items: center;
+    background-color: #252B42;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    margin:0;
+    width: 70%;
+}
+.searchGroup .icon{
+    color: #ffffff;
+    margin: 0.2rem 0 0 0;
+}
+.input{
+    border: none;
+    width: 100%;
+    background-color: #252B42;
+    color: #ffffff;
+}
+.input:hover,
+.input:focus{
+    border: none;
+    outline: none;
+}
+.cancel{
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.destopMenu, .desktopLogins{
+    display: none;
+}
+.desktopIcon{
+    display: none;
+}
+.mobileIcon{
+    margin-left: 1rem;
+    cursor: pointer;
+    color: #252B42;
+}
+
+@media screen and ( min-width:1024px ) {
+    .dropDown{
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+    }
+    .destopMenu{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 700;
+        color: #737373;
+        font-size: 1rem;
+    }
+    .destopMenu a{
+        text-decoration: none;
+        color: #737373;
+    }
+    .destopMenu:focus{
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+    .menu{
+        display: flex;
+        gap: 10vw;
+        align-items: center;
+    }
+    .logins{
+        display: flex;
+        color: #23A6F0;
+        font-weight: 700;
+    }
+    .icon{
+        margin-left: 2rem;
+        color: #23A6F0;
+    }
+    .desktopLogins{
+        display: flex;
+        align-items: center;
+        
+    }
+    .desktopIcon{
+        display: block;
+        margin-left: 2rem;
+        cursor: pointer;
+        color: #23A6F0;
+    }
+    .mobileIcon{
+        display: none;
+    }
+    .searchGroup{
+        width: 30%;
+    }
+}

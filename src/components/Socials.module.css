@@ -1,0 +1,24 @@
+.socials{
+    display: none;
+}
+
+@media screen and ( min-width:1024px ){
+    .socials{
+        display: flex;
+        align-items: center;
+        background-color:#23856D;
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        padding: 1.5rem 2rem;
+        justify-content: space-between;
+    } 
+    
+    .mailIcon{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+    }
+}

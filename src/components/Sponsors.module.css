@@ -1,0 +1,14 @@
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin: 10rem auto;
+}
+@media screen and ( min-width:1024px ){
+    .sponsors{
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

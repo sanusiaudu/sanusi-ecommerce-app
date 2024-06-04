@@ -1,0 +1,196 @@
+
+  .heroMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #fafafa;
+  
+  }
+  
+  
+  .shopLinks nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .shopLinks nav a {
+    text-decoration: none;
+  }
+  
+  .shopLinks .home {
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  
+  .shopLinks .shop {
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #bdbdbd;
+  }
+  
+  
+  .heroContainer {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imageContent, .imageContents {
+    overflow: hidden;
+    
+  }
+  
+  .imageContent .leftIcon {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    color: #cdc8c8;
+    cursor: pointer;
+  }
+  
+  
+  .imageContent .rightIcon {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    color: #cdc8c8;
+    cursor: pointer;
+  }
+  
+  .imageContent img {
+    height: 28rem;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  
+  .imageContents .imageOne {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .imageOne img {
+    width: 6.2rem;
+    height: 4.5rem;
+  }
+  
+  .heroContainer .heroContentTwo {
+    padding: 0 1.2rem;
+    width: 60%;
+  }
+  
+  .heroContentTwo h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heroContentTwo .icons {
+    display: flex;
+    align-items: center;
+    justify-Content: left;
+    gap: 1rem;
+    padding: 0.6rem 0;
+  }
+  
+  .icons span{
+    color: #737373;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+  
+  .heroContentTwo h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #252B42;
+    margin-bottom: 0.6rem;
+  }
+  
+  .heroContentTwo h6 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #737373;
+  }
+  
+  .heroContentTwo h6 span {
+    color: #23a6f0;
+  }
+  
+  .heroContentTwo .line {
+    width: 100%;
+    border: 1px solid #888;
+    opacity: 0.5;
+    margin-top: 25%;
+    margin-bottom: 0.6rem;
+  }
+  
+  .heroContentTwo .colorIcons {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+  }
+  
+  .colorIcons span{
+    width: 2rem;
+    height: 2rem;
+    background: #23a6f0;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .heroContentTwo .buttonOptions {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+  }
+  
+  .heroContentTwo .buttonOptions button {
+    width: 9rem;
+    height: 3rem;
+    padding: 0.6rem 1.4rem;
+    gap: 0.8rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+    background: #23a6f0;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .buttonOptions .selectIcons {
+    display: flex;
+    gap: 1rem;
+    color: #BDBDBD;
+  }
+  
+  @media screen and ( min-width:960px ){
+    .heroContent{
+      flex-direction: row;
+    }
+    .heroContentTwo h4 {
+      align-items: start;
+    }
+    .heroContentTwo {
+      text-align: left;
+    }
+  }
