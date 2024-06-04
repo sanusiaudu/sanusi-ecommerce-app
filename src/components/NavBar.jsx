@@ -74,7 +74,7 @@ function NavBar({}){
                 <Link to='/'>
                     <h2>Home</h2>
                 </Link>
-                <h2>Product</h2>
+                <Link to='/shop'>Product</Link>
                 <h2>Pricing</h2>
                 <h2>Contact</h2>
             </div>
